@@ -1,0 +1,11 @@
+** sch_path: /home/ahmadjabar/project/inverter/3-ringosc.sch
+**.subckt 3-ringosc vvdd out vgnd
+*.iopin vvdd
+*.iopin vgnd
+*.opin out
+x1 vvdd net2 net1 vgnd inverter
+x2 vvdd out net2 vgnd inverter
+x3 vvdd net1 out vgnd inverter
+**.ends
+
+.end
